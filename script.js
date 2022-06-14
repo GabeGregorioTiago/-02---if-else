@@ -6,7 +6,7 @@ if(age>18){
     console.log("Idade maior do que 18!")
 }
 else{
-    if(age==18)
+    if(age===18)
     {
         console.log("Idade igual a 18!")
     }
@@ -19,7 +19,7 @@ else{
 var condHuman = true
 console.log("Condição humana: "+condHuman)
 //Verificando se é maior de idade e condição humana é true
-if(age>=18 && condHuman==true){
+if(age>=18 && condHuman===true){
     console.log("Você é um adulto humano !!")
 }
 else{
@@ -42,7 +42,7 @@ console.log("Nome: "+name)
 //Colocando as letras do nome em um array
 var vetorNome = name.split('')
 //Verificando se o nome começa com a letra R
-if(vetorNome[0]=="R"){
+if(vetorNome[0]==="R"){
     console.log("Seu nome começa com a letra R!")
 }
 else{
@@ -55,7 +55,7 @@ var lastName="Gregorio"
 console.log("Sobrenome: "+lastName)
 //Verificar se o sobrenome tem mais de 6 letras
 
-if(lastName.length>=6 || vetorNome[0]=="E"){
+if(lastName.length>=6 || vetorNome[0]==="E"){
 
     console.log("Seu nome começa com a letra E ou o seu sobrenome tem mais de 6 letras")
     if(lastName.length<=6)
